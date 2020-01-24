@@ -1,0 +1,6 @@
+framework module AdaptiveRightToLeftCollectionView {
+  umbrella header "AdaptiveRightToLeftCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}

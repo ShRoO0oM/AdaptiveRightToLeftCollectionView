@@ -1,0 +1,16 @@
+PODS:
+  - AdaptiveRightToLeftCollectionView (0.1.0)
+
+DEPENDENCIES:
+  - AdaptiveRightToLeftCollectionView (from `../`)
+
+EXTERNAL SOURCES:
+  AdaptiveRightToLeftCollectionView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AdaptiveRightToLeftCollectionView: 31fee9cf23b587858a847b148d2288dfb5b87467
+
+PODFILE CHECKSUM: fcb89cec1fdefe8b89e7dd6c0b123d8b7edc7d76
+
+COCOAPODS: 1.8.4
