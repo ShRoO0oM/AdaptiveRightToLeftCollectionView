@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AdaptiveRightToLeftCollectionView_Example' do
+  pod 'AdaptiveRightToLeftCollectionView', :path => '../'
+
+  target 'AdaptiveRightToLeftCollectionView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
