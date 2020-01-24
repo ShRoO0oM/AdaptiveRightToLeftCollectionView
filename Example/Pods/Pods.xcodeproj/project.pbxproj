@@ -8,15 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0E8BF701A4A59BF7069F98EC3ADA10D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		10E8E6DB5956AB457931BF42E1388CE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		21DC90F260A25F3DE9C24CADFE493F14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2548EC43219C43626B0B930EAF2E50A9 /* Pods-AdaptiveRightToLeftCollectionView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F3A11DA1962016D30F5916624BB3A7 /* Pods-AdaptiveRightToLeftCollectionView_Example-dummy.m */; };
 		6D9CA3EA98C32DDCEC89BA842EDE84A2 /* AdaptiveRightToLeftCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90130069CDFFAB019620EA184A79B8AF /* AdaptiveRightToLeftCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77599395DAE7FED444A75E8E54AA1018 /* AdaptiveRightToLeftCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFEBCFE6E743A04CD91B053B207E790 /* AdaptiveRightToLeftCollectionView-dummy.m */; };
 		88AA9A2CCA0A89BD48A86D6C6A864E00 /* AdaptiveRightToLeftCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0CCD56A26944973521ADB2F852283 /* AdaptiveRightToLeftCollectionView.swift */; };
 		9B2E2C598E8D5EB95BE084B03FD5F7B9 /* Pods-AdaptiveRightToLeftCollectionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 913534BDBD5B3DC52D96C72109DF730A /* Pods-AdaptiveRightToLeftCollectionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF84E64B2E840C653F2ADBD9D3256FC0 /* Pods-AdaptiveRightToLeftCollectionView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB74730E223A15E249C9978D199C32CA /* Pods-AdaptiveRightToLeftCollectionView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE1F89E3D3768947E59272ECD4C547D5 /* Pods-AdaptiveRightToLeftCollectionView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5226E884F1A50D09E95A6876BAB404 /* Pods-AdaptiveRightToLeftCollectionView_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,13 +23,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2BC6A8A90CD11FF395943A2EBB0DDDAB;
 			remoteInfo = AdaptiveRightToLeftCollectionView;
-		};
-		B950843A4A55AAB0FAEF14D087B04C41 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0297DAEB00E51C1C4ECA4573E1E2973A;
-			remoteInfo = "Pods-AdaptiveRightToLeftCollectionView_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,7 +39,6 @@
 		3591C8AE9BF120F42CFE54F5C1733F50 /* Pods-AdaptiveRightToLeftCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdaptiveRightToLeftCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3BBCFE5E30C764C853A91846CF597B16 /* Pods-AdaptiveRightToLeftCollectionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdaptiveRightToLeftCollectionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3CB54B3E07018B3497CEBE93AB04ED0A /* Pods-AdaptiveRightToLeftCollectionView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdaptiveRightToLeftCollectionView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3DD927085AE9F21105B8D97E6D68B64F /* Pods_AdaptiveRightToLeftCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdaptiveRightToLeftCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AF3BF73116AEAC86905AA1ADDB5C46 /* Pods-AdaptiveRightToLeftCollectionView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdaptiveRightToLeftCollectionView_Tests.modulemap"; sourceTree = "<group>"; };
 		54D0F3FE0C19F5D579FE7F9C32EFDE2E /* Pods-AdaptiveRightToLeftCollectionView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdaptiveRightToLeftCollectionView_Example.modulemap"; sourceTree = "<group>"; };
 		7B4A5CC9911A616D6297BA538787B4A5 /* Pods-AdaptiveRightToLeftCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdaptiveRightToLeftCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,14 +77,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9943444428C0D8670F63B9927AA62A9B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10E8E6DB5956AB457931BF42E1388CE0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,7 +85,6 @@
 			children = (
 				0A7599A3293ABD9824AA7E04281429BF /* AdaptiveRightToLeftCollectionView.framework */,
 				9B1682D02B00C108F01DA9EF3B43F1DD /* Pods_AdaptiveRightToLeftCollectionView_Example.framework */,
-				3DD927085AE9F21105B8D97E6D68B64F /* Pods_AdaptiveRightToLeftCollectionView_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,14 +220,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8F250E17D96F6838351D7C521F2949C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF84E64B2E840C653F2ADBD9D3256FC0 /* Pods-AdaptiveRightToLeftCollectionView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -288,25 +260,6 @@
 			productReference = 0A7599A3293ABD9824AA7E04281429BF /* AdaptiveRightToLeftCollectionView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AED344A28B30C5F1942C27C1A431A0B0 /* Pods-AdaptiveRightToLeftCollectionView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BD71C5DDD320D7921A5FA2B09B540A0 /* Build configuration list for PBXNativeTarget "Pods-AdaptiveRightToLeftCollectionView_Tests" */;
-			buildPhases = (
-				E8F250E17D96F6838351D7C521F2949C /* Headers */,
-				FFF51BC288A8F60D95DFADEB6CAEE6CE /* Sources */,
-				9943444428C0D8670F63B9927AA62A9B /* Frameworks */,
-				9C5CBB36FEC95B39B80F98E1E3A0523A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7392F5CD43C6F83C62AF9A72E1EBD19 /* PBXTargetDependency */,
-			);
-			name = "Pods-AdaptiveRightToLeftCollectionView_Tests";
-			productName = "Pods-AdaptiveRightToLeftCollectionView_Tests";
-			productReference = 3DD927085AE9F21105B8D97E6D68B64F /* Pods_AdaptiveRightToLeftCollectionView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -330,7 +283,6 @@
 			targets = (
 				2BC6A8A90CD11FF395943A2EBB0DDDAB /* AdaptiveRightToLeftCollectionView */,
 				0297DAEB00E51C1C4ECA4573E1E2973A /* Pods-AdaptiveRightToLeftCollectionView_Example */,
-				AED344A28B30C5F1942C27C1A431A0B0 /* Pods-AdaptiveRightToLeftCollectionView_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -344,13 +296,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		71E537181EDF1851740B80E65F40D0CC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C5CBB36FEC95B39B80F98E1E3A0523A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,14 +322,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFF51BC288A8F60D95DFADEB6CAEE6CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE1F89E3D3768947E59272ECD4C547D5 /* Pods-AdaptiveRightToLeftCollectionView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -393,12 +330,6 @@
 			name = AdaptiveRightToLeftCollectionView;
 			target = 2BC6A8A90CD11FF395943A2EBB0DDDAB /* AdaptiveRightToLeftCollectionView */;
 			targetProxy = 8BD0FED21E79709D70046AC734F866DD /* PBXContainerItemProxy */;
-		};
-		A7392F5CD43C6F83C62AF9A72E1EBD19 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AdaptiveRightToLeftCollectionView_Example";
-			target = 0297DAEB00E51C1C4ECA4573E1E2973A /* Pods-AdaptiveRightToLeftCollectionView_Example */;
-			targetProxy = B950843A4A55AAB0FAEF14D087B04C41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -436,39 +367,6 @@
 			};
 			name = Debug;
 		};
-		323B8CEFF923293A6927041E3D4436FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B4A5CC9911A616D6297BA538787B4A5 /* Pods-AdaptiveRightToLeftCollectionView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AdaptiveRightToLeftCollectionView_Tests/Pods-AdaptiveRightToLeftCollectionView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdaptiveRightToLeftCollectionView_Tests/Pods-AdaptiveRightToLeftCollectionView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7158A5194E57566F74F7D697F0675E55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D93D5D7E466115D646240C478CE19DE /* AdaptiveRightToLeftCollectionView.xcconfig */;
@@ -493,7 +391,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -535,40 +433,6 @@
 			};
 			name = Release;
 		};
-		A12A62C334AC124D3D12CAB1666A9225 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F90307D3535EBC4128AFEDF7E562ECB /* Pods-AdaptiveRightToLeftCollectionView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AdaptiveRightToLeftCollectionView_Tests/Pods-AdaptiveRightToLeftCollectionView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdaptiveRightToLeftCollectionView_Tests/Pods-AdaptiveRightToLeftCollectionView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A55CCC6BF7C5D5F2BF9A5ADF51E035D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D93D5D7E466115D646240C478CE19DE /* AdaptiveRightToLeftCollectionView.xcconfig */;
@@ -593,7 +457,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -726,15 +590,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BD71C5DDD320D7921A5FA2B09B540A0 /* Build configuration list for PBXNativeTarget "Pods-AdaptiveRightToLeftCollectionView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				323B8CEFF923293A6927041E3D4436FE /* Debug */,
-				A12A62C334AC124D3D12CAB1666A9225 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		41E34D087293B03702F6FB1AE2B62729 /* Build configuration list for PBXNativeTarget "Pods-AdaptiveRightToLeftCollectionView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
